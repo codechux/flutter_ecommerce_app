@@ -80,6 +80,7 @@ class _HomePageState extends State<HomePage> {
         ),
       ),
       body: _pages[_selectedIndex],
+      backgroundColor: Colors.grey.shade300,
     );
   }
 }
